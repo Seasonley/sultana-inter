@@ -56,7 +56,7 @@ export default function writeFile(
     } else if (fPath.endsWith('tsx')|| fPath.endsWith('ts')) {
         ext='ts'
     }
-    headerStr= conf.importFormat[ext].replace('{{path}}', importPath);
+    headerStr = conf.importFormat[ext].replace("{{importPath}}", importPath);
     
 // - write fStr
     if (ext !== 'html') {

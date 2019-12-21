@@ -4,10 +4,10 @@
 
 🌎 An auto-i18n tool, based on [kiwi](https://github.com/alibaba/kiwi)+google_cn
 
-## How to use?
+## 😃 How to use?
 1.Install
 ```bash
-npm install sultana-i18n-tool
+npm install sultana-inter
 ```
 2. create `i18n.json` in your project path. it looks like:
 
@@ -34,7 +34,7 @@ npm install sultana-i18n-tool
   "defaultDirName":"common"
 }
 ```
-## Configuration
+## 📝 Configuration
 
 - **[include](#include) `string[]`**
 
@@ -105,6 +105,6 @@ npm install sultana-i18n-tool
   Ex: `common`
 
 
-## TODO
+## 💡 TODO
 - [ ] ignoreComments
 - [ ] importFomat html header

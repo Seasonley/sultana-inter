@@ -2,12 +2,19 @@
 
 中文 | [English](https://github.com/Seasonley/sultana-i18n-tool/blob/master/README-en.md)
 
+[![NPM](https://nodei.co/npm/sultana-i18n-tool.png)](https://npmjs.org/package/sultana-i18n-tool)
+
+[![NPM version][npm-image]][npm-url]
+[![Downloads][downloads-image]][npm-url]
+
+[npm-url]: https://npmjs.org/package/sultana-i18n-tool
+
 🌎 自动国际化项目代码，基于[kiwi](https://github.com/alibaba/kiwi)+google国内翻译
 
-## 如何使用?
+## 😃 如何使用?
 1. 安装
 ```bash
-npm install sultana-i18n-tool
+npm install sultana-inter
 ```
 2. 在项目跟目录创建配置文件`i18n.json`,详细配置如下：
 
@@ -33,7 +40,7 @@ npm install sultana-i18n-tool
   "defaultDirName":"common"
 }
 ```
-## 配置说明
+## 📝 配置说明
 
 - **[include](#include) `string[]`**
 
@@ -104,6 +111,6 @@ npm install sultana-i18n-tool
   例`common`
 
 
-## TODO
+## 💡 TODO
 - [ ] ignoreComments
 - [ ] importFomat html header

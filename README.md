@@ -7,7 +7,6 @@
 [![NPM version][npm-image]][npm-url]
 [![Downloads][downloads-image]][npm-url]
 
-
 🌎 自动国际化项目代码，基于[kiwi](https://github.com/alibaba/kiwi)+google国内翻译
 
 ## 😃 如何使用?
@@ -115,4 +114,6 @@ npm install sultana-inter
 - [ ] importFomat html header
 
 
+[downloads-image]: http://img.shields.io/npm/dm/sultana-inter.svg
 [npm-url]: https://npmjs.org/package/sultana-inter
+[npm-image]: http://img.shields.io/npm/v/sultana-inter.svg

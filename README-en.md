@@ -2,6 +2,11 @@
 
 [中文](https://github.com/Seasonley/sultana-inter/blob/master/README.md) | English
 
+[![NPM](https://nodei.co/npm/sultana-inter.png)](https://npmjs.org/package/sultana-inter)
+
+[![NPM version][npm-image]][npm-url]
+[![Downloads][downloads-image]][npm-url]
+
 🌎 An auto-i18n tool, based on [kiwi](https://github.com/alibaba/kiwi)+google_cn
 
 ## 😃 How to use?
@@ -109,4 +114,7 @@ npm install sultana-inter
 - [ ] ignoreComments
 - [ ] importFomat html header
 
+
+[downloads-image]: http://img.shields.io/npm/dm/sultana-inter.svg
 [npm-url]: https://npmjs.org/package/sultana-inter
+[npm-image]: http://img.shields.io/npm/v/sultana-inter.svg

@@ -1,26 +1,39 @@
 {
-  "name": "vscode-i18n-tool",
+  "name": "sultana-inter",
   "version": "1.0.0",
-  "description": "An auto-i18n tool, based on kiwi+google.cn",
-  "main": "src/index.ts",
+  "description": "An auto-i18n tool, based on kiwi + google translate cn",
+  "main": "dist/index.js",
   "scripts": {
-    "build":"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc --watch",
+    "prepublish": "tsc"
+  },
+  "bin": {
+    "su-i18n": "dist/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Seasonley/sultana-i18n-tool"
+    "url": "git+ssh://git@github.com/Seasonley/sultana-i18n-tool.git"
   },
   "keywords": [
+    "cli",
+    "sultana",
+    "su-i18n",
     "i18n"
   ],
   "author": "seasonley",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Seasonley/sultana-i18n-tool/issues"
+  },
+  "homepage": "https://github.com/Seasonley/sultana-i18n-tool#readme",
   "dependencies": {
     "fs-extra": "^8.1.0",
     "micromatch": "^4.0.2",
     "translation.js": "^0.7.12",
     "ts-is-kind": "^1.0.0",
+    "ts-node": "^8.5.4",
     "typescript": "^3.7.3"
   },
   "devDependencies": {

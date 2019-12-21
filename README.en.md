@@ -1,13 +1,13 @@
 # [-_@] sultana-i18n-tool
 
-🌎 自动国际化项目代码，基于kiwi+google国内翻译
+🌎 An auto-i18n tool, based on kiwi+google.cn
 
-# 安装
+create `i18n.json` in your project path. it looks like:
+
+# Install
 ```bash
 npm install sultana-i18n-tool
 ```
-
-在项目跟目录创建配置文件,详细配置如下：
 
 ```json
 {
@@ -31,7 +31,3 @@ npm install sultana-i18n-tool
   "defaultDirName":"common"
 }
 ```
-
-
-# TODO
-- [ ] ignoreComments

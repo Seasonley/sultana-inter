@@ -1,13 +1,12 @@
-# [-_@] sultana-i18n-tool
+# [-_@] sultana-inter
 
-中文 | [English](https://github.com/Seasonley/sultana-i18n-tool/blob/master/README-en.md)
+中文 | [English](https://github.com/Seasonley/sultana-inter/blob/master/README-en.md)
 
-[![NPM](https://nodei.co/npm/sultana-i18n-tool.png)](https://npmjs.org/package/sultana-i18n-tool)
+[![NPM](https://nodei.co/npm/sultana-inter.png)](https://npmjs.org/package/sultana-inter)
 
 [![NPM version][npm-image]][npm-url]
 [![Downloads][downloads-image]][npm-url]
 
-[npm-url]: https://npmjs.org/package/sultana-i18n-tool
 
 🌎 自动国际化项目代码，基于[kiwi](https://github.com/alibaba/kiwi)+google国内翻译
 
@@ -114,3 +113,6 @@ npm install sultana-inter
 ## 💡 TODO
 - [ ] ignoreComments
 - [ ] importFomat html header
+
+
+[npm-url]: https://npmjs.org/package/sultana-inter

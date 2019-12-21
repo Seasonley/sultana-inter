@@ -1,6 +1,6 @@
-# [-_@] sultana-i18n-tool
+# [-_@] sultana-inter
 
-[中文](https://github.com/Seasonley/sultana-i18n-tool/blob/master/README.md) | English
+[中文](https://github.com/Seasonley/sultana-inter/blob/master/README.md) | English
 
 🌎 An auto-i18n tool, based on [kiwi](https://github.com/alibaba/kiwi)+google_cn
 
@@ -108,3 +108,5 @@ npm install sultana-inter
 ## 💡 TODO
 - [ ] ignoreComments
 - [ ] importFomat html header
+
+[npm-url]: https://npmjs.org/package/sultana-inter

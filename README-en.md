@@ -17,7 +17,7 @@ npm install sultana-inter
 2. create `i18n.json` in your project path. it looks like:
 
 
-```json
+```js
 {
   "include": ["src/**/*.(ts*|js*)"],
   "exclude": ["**/i18n/**","**/test/*","**/*.test.*"],

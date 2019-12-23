@@ -16,7 +16,7 @@ npm install sultana-inter
 ```
 2. 在项目跟目录创建配置文件`i18n.json`,详细配置如下：
 
-```json
+```js
 {
   "include": ["src/**/*.(ts*|js*)"],
   "exclude": ["**/i18n/**","**/test/*","**/*.test.*"],

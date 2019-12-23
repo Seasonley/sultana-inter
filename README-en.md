@@ -39,6 +39,14 @@ npm install sultana-inter
   "defaultDirName":"common"
 }
 ```
+
+
+3. Exec i18n command in your project directory.
+```bash
+su-inter
+```
+
+
 ## 📝 Configuration
 
 - **[include](#include) `string[]`**

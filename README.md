@@ -38,6 +38,12 @@ npm install sultana-inter
   "defaultDirName":"common"
 }
 ```
+
+3. 在项目更目录执行翻译命令
+```bash
+su-inter
+```
+
 ## 📝 配置说明
 
 - **[include](#include) `string[]`**

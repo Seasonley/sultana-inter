@@ -8,6 +8,7 @@ import writeFile from './writeFile';
 import translateMuti from './translateMuti';
 import getFinalText from './getFinalText';
 
+main(process.cwd());
 
 export default async function main(rootPath) {
   //read conf

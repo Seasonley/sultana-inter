@@ -10,7 +10,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-// main
 const fs = require("fs");
 const path = require("path");
 const micromatch = require("micromatch");
@@ -19,7 +18,16 @@ const replaceAndUpdate_1 = require("./replaceAndUpdate");
 const writeFile_1 = require("./writeFile");
 const translateMuti_1 = require("./translateMuti");
 const getFinalText_1 = require("./getFinalText");
-main(process.cwd());
+const commander = require("commander");
+commander
+    .version('0.1.0')
+    .option('-p, --path [type]', 'Compile path')
+    .parse(process.argv);
+let program_path = process.cwd() + '/';
+if (commander.path) {
+    program_path = commander.path;
+}
+main(program_path);
 function main(rootPath) {
     return __awaiter(this, void 0, void 0, function* () {
         //read conf

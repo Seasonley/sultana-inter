@@ -1,4 +1,6 @@
-// main
+#!/usr/bin/env node
+
+
 import * as fs from "fs";
 import * as path from "path";
 import * as micromatch from "micromatch";
@@ -7,8 +9,19 @@ import replaceAndUpdate from "./replaceAndUpdate";
 import writeFile from './writeFile';
 import translateMuti from './translateMuti';
 import getFinalText from './getFinalText';
+import * as commander from 'commander';
 
-main(process.cwd());
+
+
+commander
+  .version('0.1.0')
+  .option('-p, --path [type]','Compile path')
+  .parse(process.argv);
+let program_path=process.cwd()+'/';
+if (commander.path){
+  program_path = commander.path;
+}
+main(program_path);
 
 export default async function main(rootPath) {
   //read conf

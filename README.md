@@ -39,9 +39,9 @@ npm install sultana-inter
 }
 ```
 
-3. 在项目更目录执行翻译命令
+3. 执行翻译命令
 ```bash
-su-inter
+su-inter -p /path/to/your/project/
 ```
 
 ## 📝 配置说明

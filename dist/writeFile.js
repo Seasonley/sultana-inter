@@ -23,7 +23,7 @@ function writeFile(rootPath, fPath, $src, $res, conf, cache) {
     //rewriteJSfile
     //- replace
     const fStr = $res.reduce((acc, cur, idx) => acc.slice(0, cur.range[0]) +
-        cur.var +
+        cur.var.split(".").splice(1, 0, pkgname).join(".") +
         acc.slice(cur.range[1]), $src);
     //- add header
     let headerStr;

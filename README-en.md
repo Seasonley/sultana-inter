@@ -41,9 +41,9 @@ npm install sultana-inter
 ```
 
 
-3. Exec i18n command in your project directory.
+3. Exec i18n command and input your project directory.
 ```bash
-su-inter
+su-inter -p /path/to/your/project/
 ```
 
 

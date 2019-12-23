@@ -1,6 +1,6 @@
 {
   "name": "sultana-inter",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "An auto-i18n tool, based on kiwi + google translate cn",
   "main": "dist/index.js",
   "scripts": {

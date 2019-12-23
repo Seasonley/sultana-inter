@@ -114,6 +114,9 @@ su-inter -p /path/to/your/project/
 
   例`common`
 
+## 已知问题
+
+`&nbsp;`会导致google翻译接口报错
 
 ## 💡 TODO
 - [ ] ignoreComments

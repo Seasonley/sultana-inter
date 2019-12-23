@@ -43,7 +43,7 @@ export default function writeFile(
   const fStr = $res.reduce(
     (acc, cur, idx) =>
       acc.slice(0, cur.range[0]) +
-      cur.var.split(".").splice(1,0,pkgname).join(".") +
+      cur.var.replace(".","."+pkgname)+
       acc.slice(cur.range[1]),
     $src
   );

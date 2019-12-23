@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -18,6 +19,7 @@ const replaceAndUpdate_1 = require("./replaceAndUpdate");
 const writeFile_1 = require("./writeFile");
 const translateMuti_1 = require("./translateMuti");
 const getFinalText_1 = require("./getFinalText");
+main(process.cwd());
 function main(rootPath) {
     return __awaiter(this, void 0, void 0, function* () {
         //read conf

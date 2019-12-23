@@ -1,6 +1,6 @@
 {
   "name": "sultana-inter",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "An auto-i18n tool, based on kiwi + google translate cn",
   "main": "dist/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "prepublish": "tsc"
   },
   "bin": {
-    "su-i18n": "dist/index.js"
+    "su-inter": "dist/index.js"
   },
   "repository": {
     "type": "git",

@@ -20,7 +20,7 @@ const translateMuti_1 = require("./translateMuti");
 const getFinalText_1 = require("./getFinalText");
 const commander = require("commander");
 commander
-    .version('0.1.0')
+    .version('1.1.1')
     .option('-p, --path [type]', 'Compile path')
     .parse(process.argv);
 let program_path = process.cwd() + '/';

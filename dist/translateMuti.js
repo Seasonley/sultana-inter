@@ -9,16 +9,17 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const translation_js_1 = require("translation.js");
+const inquirer = require("inquirer");
 var i = 0;
 function translateMuti(keys, { from = 'zh', to = 'en' }) {
     return __awaiter(this, void 0, void 0, function* () {
-        var gg = yield translation_js_1.google.translate({
-            text: keys.map(v => v.replace("\n", '\n')).join("\n"),
-            from,
-            to,
-        });
-        return { keys: gg.result.map(v => {
+        const answers = yield inquirer.prompt([{
+                type: 'editor',
+                name: 'content',
+                message: "---translate content---\n" + keys.join("\n") + "\n---(one line per index)---"
+            }]);
+        return {
+            keys: answers.content.split("\n").map(v => {
                 let ans = v.replace(/\W+/g, '_');
                 if (!ans) {
                     return 'symbol' + (i++);
@@ -27,7 +28,8 @@ function translateMuti(keys, { from = 'zh', to = 'en' }) {
                     return ans.slice(0, 40) + (i++);
                 }
                 return ans;
-            }), vals: gg.result };
+            }), vals: answers.content.split("\n")
+        };
     });
 }
 exports.default = translateMuti;

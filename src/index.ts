@@ -14,7 +14,7 @@ import * as commander from 'commander';
 
 
 commander
-  .version('0.1.0')
+  .version('1.1.1')
   .option('-p, --path [type]','Compile path')
   .parse(process.argv);
 let program_path=process.cwd()+'/';

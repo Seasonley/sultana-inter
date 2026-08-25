@@ -1,0 +1,5 @@
+{
+  "framework": "angular",
+  "include": ["src/**/*.{ts,html}"],
+  "exclude": ["**/node_modules/**"]
+}

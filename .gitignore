@@ -1,2 +1,6 @@
 node_modules
 .vscode
+.test-tmp
+test/fixtures/*/node_modules/
+test/fixtures/*/dist/
+test/fixtures/*/build/
